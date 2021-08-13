@@ -1,0 +1,47 @@
+
+h1{
+    margin: 20px;
+    font-size: 40px;
+}
+body{
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+    height: 100vh;
+}
+#buttonGame{
+    background: white;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+    height: 600px;
+    border: 1px solid black;
+}
+
+#buttonMain{
+    height: 40px;
+    width: 40px;
+    background: white;
+
+}
+#scoreLabel{
+    height: 40px;
+    width: 60px;
+    margin-left: 220px;
+    margin-top: 40px;
+    font-size: 40px;
+}
+#timer{
+    height: 40px;
+    width: 60px;
+    margin-left: 400px;
+    margin-top: 0px;
+    font-size: 40px;
+}
+#highScore{
+    height: 40px;
+    width: 60px;
+    margin-left: 40px;
+    margin-top: 0px;
+    font-size: 40px;
+}

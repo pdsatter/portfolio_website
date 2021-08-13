@@ -1,0 +1,86 @@
+<!DOCTYPE <!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portfolio: Preston Satterfield</title>
+        <meta name="description" content="portfolio" content="experience">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="../CSS/main.css">
+        <link rel="stylesheet" href="../CSS/buttongame.css">
+    </head>
+    <body>
+        <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+        
+        <script src="main.js" async defer></script>
+
+        <h1 class="title">Projects</h1>
+
+        <div class="navbar">
+            <a href="../index.html">Home</a>
+            <div class="dropdown">
+                <button class="dropbtn">Others
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="/side pages/aboutMe.html">About Me</a>
+                    <a href="/side pages/Resume.html">Resume</a>
+                    <a href="/side pages/projects.html">Projects</a>
+                    <a href="/side pages/education.html">Education</a>
+                    <a href="/side pages/workExperience.html">Work Experience</a>
+                </div>
+            </div>
+        </div>
+        <br>
+        <div class="center">
+            <a class="inner" href="https://github.com/pdsatter">
+                <img src="/images/github_logo.png" height="100px">
+            </a>
+        </div>
+        <br>
+        <h1>Wack A Mole!</h1>
+        <!--Wack A Mole Button Game-->
+        
+        <div>
+            <label id="scoreLabel">Score: 0</label>
+            <label id="highScore">High Score: 0</label>
+            <label id="timer">30 seconds</label>
+        </div>
+        <div id="buttonGame">
+            <button id="buttonMain" type="submit">
+                <img width="30px" src="../images/diglett.png" class="diglett">
+            </button>
+        </div>
+        <br>
+        <script src="../buttongame.js" async defer></script>
+
+        <!--NAE Project-->
+        <h1>NAE Project</h1>
+        <p>
+            This was a group project for Engineering 1331.  This project was about researching on solar energy and creating a <u>matlab</u> program about the economic effects of solar energy
+            production and consumption.  There were 5 of us working on it, but I will only focus on my part of the project.  I made a function that takes in a dataset of years and the solar
+            energy consumption associated with that year.  My function would then start at the first non-zero consumption year and use a exponential equation to predict how solar energy would
+            grow in either 0, 5, or 10 years (depending on what user selects).  My equation would also calculate the R^2 value between the original data and my predicted data.  I would then graph
+            the original data and my updated data onto a chart (seen below).  To prevent cheating, this code can only be viewed upon request.
+        </p>
+        <br>
+        <div class="center">
+            <table class="center">
+                <tr>
+                    <th><img src="../images/NAE_Grand_Challenge.png" height="60px" margin="50px"></th>
+                    <th><img src="../images/engineering_UH.png" height="60px"></th>
+                </tr>  
+            </table>
+            <br>
+            <img src="../images/NAE_project_graph.png" width="30%">
+        </div>
+        <br>
+        <br>
+    </body>
+</html>
